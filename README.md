@@ -2,7 +2,7 @@
 
 ## [Software Engineering In Google](https://github.com/lemonshen00/reading-record/blob/main/swe-book/)
 
-## [Cpp-Primer-5(https://github.com/lemonshen00/reading-record/blob/main/cpp-primer-5/)
+## [Cpp-Primer-5](https://github.com/lemonshen00/reading-record/blob/main/cpp-primer-5/)
 
 ## About
 
