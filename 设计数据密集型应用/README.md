@@ -1,6 +1,6 @@
-# 设计数据密集型应用
+# 数据密集型应用系统设计
 
-![Cover](设计数据密集型应用.jpg)
+![Cover](数据密集型应用系统设计.png)
 
 ## 目录
 
@@ -13,3 +13,5 @@
 ***GitHub***: https://github.com/lemonshen00
 
 ***E-Mail***: shenzhiyu00@126.com/happyshenzy@gmail.com
+
+***E-Book***: http://ddia.vonng.com/#/
