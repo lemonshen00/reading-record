@@ -1,6 +1,6 @@
 # Software Engineering In Google
 
-![Cover](swe-book.png)
+![Cover](swe-book.jpg)
 
 ## Table of contents
 
