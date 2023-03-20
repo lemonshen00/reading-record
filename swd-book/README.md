@@ -8,10 +8,10 @@
 
 ## About
 
-***GitHub***：https://github.com/lemonshen00
+***Date***: 20/03/2022 - 
 
-***E-Mail***：happyshenzy@gmail.com/shenzhiyu00@126.com
+***EbookUrl***: https://abseil.io/resources/swe-book
 
-Date : 20/03/2022 - 
+***GitHub***: https://github.com/lemonshen00
 
-url : https://abseil.io/resources/swe-book
+***E-Mail***: shenzhiyu00@126.com/happyshenzy@gmail.com
