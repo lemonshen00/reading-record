@@ -8,6 +8,8 @@
 
 ## [程序员面试宝典](https://github.com/lemonshen00/reading-record/tree/main/%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8)
 
+## [设计数据密集型应用](https://github.com/lemonshen00/reading-record/tree/main/%E8%AE%BE%E8%AE%A1%E6%95%B0%E6%8D%AE%E5%AF%86%E9%9B%86%E5%9E%8B%E5%BA%94%E7%94%A8)
+
 ## 关于
 
 ***GitHub***: https://github.com/lemonshen00
