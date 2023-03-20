@@ -4,7 +4,7 @@
 
 ## [Cpp-Primer-5](https://github.com/lemonshen00/reading-record/blob/main/cpp-primer-5/)
 
-## About
+## 关于
 
 ***GitHub***: https://github.com/lemonshen00
 
