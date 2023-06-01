@@ -8,6 +8,8 @@
 
 [第2章 服务的拆分策略](https://github.com/lemonshen00/reading-record/blob/main/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%AC%AC2%E7%AB%A0%20%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%8B%86%E5%88%86%E7%AD%96%E7%95%A5/README.md)
 
+[第3章 微服务架构中的进程间通信](https://github.com/lemonshen00/reading-record/blob/main/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%AC%AC3%E7%AB%A0%20%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%AD%E7%9A%84%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1/README.md)
+
 ## 关于
 
 ***Date***: 31/05/2023 - 
