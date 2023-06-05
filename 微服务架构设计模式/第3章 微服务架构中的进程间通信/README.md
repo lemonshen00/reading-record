@@ -393,6 +393,7 @@ gRPC也有几个弊端：
 
 此处需要插入图片
 
+![screen_shot_1685931169213](https://github.com/lemonshen00/reading-record/assets/13763576/aec1d4f2-a9f5-42f4-93a2-65aa14f9e45c)
 
 
 #### 复制数据
