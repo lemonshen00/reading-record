@@ -132,7 +132,6 @@ gRPC也有几个弊端：
 否则可以使用缓存数据，或者默认数据，或者不显示相关信息。
 
 
-
 ### 3.2.4 使用服务发现
 
 服务发现的关键组件是服务注册表，它是包含服务实例网络位置信息的一个数据库。
@@ -180,7 +179,7 @@ gRPC也有几个弊端：
 ![screen_shot_1685930130047](https://github.com/lemonshen00/reading-record/assets/13763576/9700544d-c95d-4d14-a427-ded220d50113)
 
 每个微服务都有一个网络位置（物理IP），虚拟地址（VIP），一个DNS名称（可以配置的，如order-service），客户端使用DNS名称order-service
-访问微服务Order Service，该服务被平台解析为VIP
+访问微服务Order Service，该服务被平台解析为VIP（K8S就这么做的）
 
 此处插入图片
 
