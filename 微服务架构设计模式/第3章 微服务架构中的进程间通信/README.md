@@ -147,8 +147,6 @@ gRPC也有几个弊端：
 #### 服务及其客户端直接与服务注册表交互
 ![screen_shot_1685930684242](https://github.com/lemonshen00/reading-record/assets/13763576/8d34ba7b-aac2-4efe-b76c-82c82458d0ca)
 
-此处插入图片
-
 
 此模式有核心的两个模式：
 
@@ -181,7 +179,6 @@ gRPC也有几个弊端：
 每个微服务都有一个网络位置（物理IP），虚拟地址（VIP），一个DNS名称（可以配置的，如order-service），客户端使用DNS名称order-service
 访问微服务Order Service，该服务被平台解析为VIP（K8S就这么做的）
 
-此处插入图片
 
 由上图可知，平台层服务发现模式中，多了一个平台路由器和注册器，客户端与平台路由器交互；服务端与注册器交互；
 
@@ -210,7 +207,6 @@ gRPC也有几个弊端：
 
 ![screen_shot_1685930796317](https://github.com/lemonshen00/reading-record/assets/13763576/1cdbf600-43aa-4335-ae42-0fa7474f8829)
 
-此处插入图片 
 
 消息通道分两种类型：
 - 点对点通道：服务使用点对点通道实现一对一交互方式，例如，命令式消息通常通过点对点通道发送
@@ -290,7 +286,6 @@ gRPC也有几个弊端：
 
 ![screen_shot_1685930957600](https://github.com/lemonshen00/reading-record/assets/13763576/acb7d8da-80dd-482f-ba2d-f4bd0a28f80f)
 
-此处插入图片
 
 针对问题1，Kafka将一个Topic分为多个partition，每个partition可以对应一个稳定的消费者，但需要消息中带入partiton id。
 
@@ -333,7 +328,6 @@ gRPC也有几个弊端：
 
 ![screen_shot_1685931069709](https://github.com/lemonshen00/reading-record/assets/13763576/adc4bc28-69a6-474c-bc48-a03d5750efb4)
 
-此处插入图片
 
 步骤如下：
 
@@ -372,11 +366,6 @@ gRPC也有几个弊端：
 
 
 
-
-
-
-
-
 ## 3.4 使用异步消息提高可用性
 
 ### 3.4.1 同步消息会降低可用性
@@ -391,7 +380,6 @@ gRPC也有几个弊端：
 
 理想的情况下，将所有的交互全部改为异步交互，如下图。
 
-此处需要插入图片
 
 ![screen_shot_1685931169213](https://github.com/lemonshen00/reading-record/assets/13763576/aec1d4f2-a9f5-42f4-93a2-65aa14f9e45c)
 
