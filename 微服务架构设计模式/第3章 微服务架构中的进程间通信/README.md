@@ -286,8 +286,9 @@ gRPC也有几个弊端：
 - 如果消费者有1个，1/2/3三个消息可能被三个不同的线程处理，造成消费顺序错乱
 
 
-
 解决办法：
+
+![screen_shot_1685930957600](https://github.com/lemonshen00/reading-record/assets/13763576/acb7d8da-80dd-482f-ba2d-f4bd0a28f80f)
 
 此处插入图片
 
