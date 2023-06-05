@@ -115,6 +115,7 @@ gRPC也有几个弊端：
 >
 > 这是一个远程过程调用的代理，在连续失败次数超过指定的阈值后的一段时间内，这个代理会立即拒绝其他调用
 
+![screen_shot_1685929901997](https://github.com/lemonshen00/reading-record/assets/13763576/b9d3a768-b578-45f6-8b98-3625432b45ae)
 
 此处插入图片
 
