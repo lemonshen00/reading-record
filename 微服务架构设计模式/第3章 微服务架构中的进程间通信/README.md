@@ -146,9 +146,9 @@ gRPC也有几个弊端：
 
 
 #### 服务及其客户端直接与服务注册表交互
+![screen_shot_1685930684242](https://github.com/lemonshen00/reading-record/assets/13763576/8d34ba7b-aac2-4efe-b76c-82c82458d0ca)
 
 此处插入图片
-
 
 
 此模式有核心的两个模式：
