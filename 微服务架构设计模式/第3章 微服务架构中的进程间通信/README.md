@@ -331,6 +331,8 @@ gRPC也有几个弊端：
 
 #### 使用数据库表作为消息队列
 
+![screen_shot_1685931069709](https://github.com/lemonshen00/reading-record/assets/13763576/adc4bc28-69a6-474c-bc48-a03d5750efb4)
+
 此处插入图片
 
 步骤如下：
