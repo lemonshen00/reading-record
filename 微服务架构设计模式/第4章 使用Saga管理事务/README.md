@@ -78,5 +78,25 @@ Saga编排器使用命令/异步响应方式与Saga的参与方服务通信。
 为了完成Saga中的一个环节，编排器对某个参与方发出一个命令式消息，告诉这个参与方该做什么操作。
 当参与方服务完成操作后，会给编排器发送一个答复消息，编排器处理这个消息，并决定Saga的下一步操作是什么。
 
+![screen_shot_1686217145202](https://github.com/lemonshen00/reading-record/assets/13763576/e2ba647d-741a-4dff-bdfa-7cda9eb8898a)
+
+注意：Saga编排器是Order Service的一部分，但他依然会向Order Service发消息，而不是直接更新本地的数据库。
+
+#### 把Saga编排器视为一个状态机
+状态机是建模Saga的一个好方法，*状态机*有一组状态和一组由事件触发的状态之间的转换组成。
+每个转换都可以有一个动作，对于Saga来说动作就是对某个参与方的调用。
+状态之间的转换由Saga参与方执行本地的事务完成触发。
+当前状态和本地事务的*特定结果*决定了状态转换以及执行的动作。
+
+![screen_shot_1686217490496](https://github.com/lemonshen00/reading-record/assets/13763576/a0fee52c-9eb0-41ab-afb5-23fa77d6c619)
+
+
+
+
+
+
+
+
+
 
 
