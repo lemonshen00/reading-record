@@ -10,6 +10,8 @@
 
 [第3章 微服务架构中的进程间通信](https://github.com/lemonshen00/reading-record/blob/main/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%AC%AC3%E7%AB%A0%20%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%AD%E7%9A%84%E8%BF%9B%E7%A8%8B%E9%97%B4%E9%80%9A%E4%BF%A1/README.md)
 
+[第4章 使用Saga管理事务](https://github.com/lemonshen00/reading-record/blob/main/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%AC%AC4%E7%AB%A0%20%E4%BD%BF%E7%94%A8Saga%E7%AE%A1%E7%90%86%E4%BA%8B%E5%8A%A1/README.md)
+
 ## 关于
 
 ***Date***: 31/05/2023 - 
