@@ -202,6 +202,28 @@ DomainEventEnvelope是一个包含事件元数据和事件对象的类。
 以前做LDM，实际就是在设计聚合，因为聚合可能是多个实体、值对象。
 而LDM落地为PDM时，将多个逻辑表组合成一个物理表，实际就是一个聚合，方便按事务性的处理添删改查。
 
+![image](https://github.com/lemonshen00/reading-record/assets/13763576/3701af3e-03d6-4eef-a7cd-abbbb5c7861d)
+
+Kitchen Service微服务主要负责实现餐馆的订单管理功能。
+该服务的两个主要聚合是Restaurant和Ticket。
+Restaurant 聚合知道餐馆的菜单和营业时间，并可以验证订单。
+Ticket代表餐馆厨房的工单，工单烹饪完成后由送餐员负责派送。
+
+除了聚合之外，Kitchen Service业务逻辑的其他核心部分是KitchenService、TicketRepository和RestaurantRepository。
+KitchenService是业务逻辑的入口。所有的入站适配器与它交互。
+TicketRepository和RestaurantRepository负责持久化聚合信息（Repository是聚合维度的，一个聚合一个Repository）。
+
+三个入站适配器：
+- REST API：餐馆工作人员通过他们的用户界面调用这些REST API。它调用KitchenService来创建和更新Ticket
+- KitchenServiceCommandHandler：由Saga调用的基于异步请求/响应的API，它调用KitchenService来创建和更新Ticket
+- KitchenServiceEventConsumer：定于Restaurant Service发布的事件。它调用KitchenService来创建和更新Restaurant聚合。
+
+该服务还有两个出站适配器：
+- DB Adapter：实现TicketRepository和RestaurantRepository接口并访问数据库
+- DomainEventPublishingAdapter：实现DomainEventPublisher接口并发布Ticket领域事件。
+
+问题：在哪个类里发布领域事件？
+在KitchenService类中。
 
 
 
