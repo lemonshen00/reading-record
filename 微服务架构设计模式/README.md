@@ -16,7 +16,7 @@
 
 [第6章 使用事件溯源开发业务逻辑](https://github.com/lemonshen00/reading-record/blob/main/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%AC%AC6%E7%AB%A0%20%E4%BD%BF%E7%94%A8%E4%BA%8B%E4%BB%B6%E6%BA%AF%E6%BA%90%E5%BC%80%E5%8F%91%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91/README.md)
 
-[第7章 在微服务架构中实现查询]([https://github.com/lemonshen00/reading-record/blob/main/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%9C%A8%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%9F%A5%E8%AF%A2/README.md](https://github.com/lemonshen00/reading-record/blob/main/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%AC%AC7%E7%AB%A0%20%E5%9C%A8%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%9F%A5%E8%AF%A2/README.md)
+[第7章 在微服务架构中实现查询](https://github.com/lemonshen00/reading-record/blob/main/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%AC%AC7%E7%AB%A0%20%E5%9C%A8%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%9F%A5%E8%AF%A2/README.md)
 
 ## 关于
 
